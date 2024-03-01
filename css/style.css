@@ -198,7 +198,7 @@ label {
 }
 
 .loading-mask {
-  background-color: #fa6862;
+  background-color: #fbc919;
   height: 100%;
   left: 0;
   position: absolute;
@@ -208,6 +208,7 @@ label {
 }
 .loading-mask:nth-child(2) {
   left: 20%;
+  background-color: #1e2530;
   transition-delay: 0.1s;
 }
 .loading-mask:nth-child(3) {
@@ -215,6 +216,7 @@ label {
   transition-delay: 0.2s;
 }
 .loading-mask:nth-child(4) {
+  background-color: #1e2530;
   left: 60%;
   transition-delay: 0.3s;
 }
@@ -333,9 +335,9 @@ label {
   background-size: cover;
   vertical-align: middle;
 }
-.page-home .overlay {
+/* .page-home .overlay {
   background-color: rgba(255, 255, 255, 0.93);
-}
+} */
 /* End of container */
 .hexagon-item {
   cursor: pointer;
