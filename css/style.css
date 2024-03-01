@@ -1,15 +1,9 @@
-/**
- * WEBSITE: https://themefisher.com
- * TWITTER: https://twitter.com/themefisher
- * FACEBOOK: https://www.facebook.com/themefisher
- * GITHUB: https://github.com/themefisher/
- */
-
 /*------------------------------------------------
 	Base Styles
 -------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 body {
-  font-family: "Libre Baskerville", serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
@@ -239,8 +233,13 @@ label {
 /*------------------------------------------------
 	Start Styling
 -------------------------------------------------*/
+.homemainTitle {color: rgb(0, 0, 0);font-weight: 700;display: inline-block;margin-bottom: 20px;background: rgb(251, 201, 25);padding: 0px 10px;font-size: 18px;}
+.homemainTitle span {color: rgb(255, 255, 255);font-weight: 700;}
+.homemainPara  {font-weight: 500;color: rgb(0, 0, 0);font-size: 21px !important;}
+
+
 .site-wrapper {
-  border-top: 4px solid #fa6862;
+  border-top: 4px solid #fbc919;
 }
 
 .page-close {
@@ -258,7 +257,7 @@ label {
   margin-bottom: 20px;
 }
 .page-title h2 {
-  font-size: 68px;
+  font-size: 40px;
   margin-bottom: 25px;
   position: relative;
   z-index: 0;
@@ -325,7 +324,6 @@ label {
   line-height: 1.3;
   text-transform: uppercase;
 }
-
 /*------------------------------------------------
     Home Page
 -------------------------------------------------*/
@@ -338,7 +336,6 @@ label {
 .page-home .overlay {
   background-color: rgba(255, 255, 255, 0.93);
 }
-
 /* End of container */
 .hexagon-item {
   cursor: pointer;
