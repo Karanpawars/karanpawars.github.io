@@ -629,7 +629,7 @@ label {
 }
 .history-block .section-title {
   background-color: #1e2530;
-  border-bottom: 1px solid #293342;
+  border-bottom: 1px solid #fbc919;
   left: 0;
   margin-bottom: 0;
   padding: 15px 34px 14px;
@@ -654,6 +654,7 @@ label {
   padding-left: 32px;
   margin-bottom: 20px;
   width: 100%;
+  color: #fff;
 }
 .history-item > * {
   display: table-cell;
@@ -670,6 +671,7 @@ label {
   top: 50%;
   left: calc(50% - 12.5px);
   transform: translate(-50%, -50%);
+  color: #fff;
 }
 .history-item h5 {
   color: #fff;
@@ -1079,9 +1081,9 @@ label {
   padding-bottom: 110px;
   padding-top: 60px;
 }
-.pt-table.desktop-768 .pt-tablecell .page-nav {
+/* .pt-table.desktop-768 .pt-tablecell .page-nav {
   bottom: auto;
-}
+} */
 
 /* =================================== */
 /*  Color Switcher
