@@ -87,7 +87,8 @@ textarea,
 label {
   font-weight: 400;
 }
-
+.mb-0{margin-bottom: 0;}
+.borderRadiusZero {border-radius: 0 !important;}
 .btn {
   transition: all 0.3s ease 0s;
 }
@@ -105,7 +106,8 @@ label {
   padding: 0 42px;
   text-transform: uppercase;
 }
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:active:focus {
+.btn-primary:hover {background-color: #241818;}
+.btn-primary:focus, .btn-primary:active, .btn-primary:active:focus {
   background-color: #f9423a;
 }
 
@@ -519,7 +521,6 @@ label {
   background-color: #1e2530;
   border-radius: 2px;
   height: auto;
-  min-height: 45px;
   -moz-align-items: center;
   align-items: center;
   display: -moz-flex;
@@ -532,10 +533,9 @@ label {
   letter-spacing: 1px;
 }
 .progress .skill-name {
-  border-right: 2px solid #2e333a;
-  min-width: 160px;
-  text-align: center;
-  text-transform: uppercase;
+  padding-left: 20px;
+  text-align: left;
+  /* text-transform: uppercase; */
 }
 .progress .skill-bar {
   background-color: #07080b;
@@ -1038,6 +1038,7 @@ label {
   min-width: 53px;
   position: absolute;
   top: 0;
+  color: #fff;
 }
 .contact-form .form-control {
   background-color: #1e2530;
