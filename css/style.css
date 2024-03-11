@@ -190,7 +190,7 @@ label {
 .nicescroll-cursors {
   background: #fbc919 !important;
 }
-.imgBorder {border-radius: 5px;border: 1px solid #ccc;}
+.imgBorder {border-radius: 5px;border: 1px solid #ccc;padding: 20px;}
 .preloader {
   bottom: 0;
   left: 0;
