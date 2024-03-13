@@ -1320,10 +1320,10 @@ label {
     margin-bottom: 45px;
   }
   .page-title h2 {
-    font-size: 35px;
+    font-size: 25px;
   }
   .page-title .title-bg {
-    font-size: 50px;
+    font-size: xx-large;
   }
   .hexagon-item {
     float: none;
@@ -1355,6 +1355,8 @@ label {
     margin-bottom: 15px;
     margin-right: 0;
     padding: 0;
+    justify-content: center;
+    display: flex;
   }
   .about-author .author-desc b {
     display: block;
@@ -1377,9 +1379,15 @@ label {
     min-width: auto;
     text-align: left;
   }
+  .history-scroller {overflow-y:scroll !important;}
+  .history-item .history-text br {display: none;}
+  .history-item .history-text a {font-size: 12px;}
+  .history-item h5 {font-size: 12px;}
+  .history-item span {line-height: 18px;display: block;}
+  .history-item p {line-height: 18px;font-size: 12px;}
   .service-hex {
     float: none;
-    margin: 0 auto 40px;
+    margin: 0 auto 0;
     width: 60%;
   }
   .service-hex:last-child {
@@ -1406,8 +1414,11 @@ label {
   }
   .page-nav .flex span {
     display: block;
-    margin: 20px 0;
+    margin: 13px 0;
+    font-size: 11px;
+    line-height: 21px;
   }
+  .page-title p {line-height: 21px;font-size: 14px;}
 }
 .dark {
   background-color: #0c0f15;
