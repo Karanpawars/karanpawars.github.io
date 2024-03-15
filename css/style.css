@@ -1091,6 +1091,7 @@ label {
 .pt-table.desktop-768 .pt-tablecell {
   padding-bottom: 110px;
   padding-top: 60px;
+  background-attachment: fixed;
 }
 /* .pt-table.desktop-768 .pt-tablecell .page-nav {
   bottom: auto;
@@ -1434,7 +1435,7 @@ label {
     font-size: 11px;
     line-height: 21px;
   }
-  .page-title p {line-height: 21px;font-size: 14px;}
+  .page-title p {line-height: 30px;font-size: 14px;}
 }
 .dark {
   background-color: #0c0f15;
