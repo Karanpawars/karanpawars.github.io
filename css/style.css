@@ -95,6 +95,7 @@ label {
   font-weight: 400;
 }
 .mb-0{margin-bottom: 0;}
+.mt-10 {margin-top: 10px;}
 .borderRadiusZero {border-radius: 0 !important;}
 .btn {
   transition: all 0.3s ease 0s;
@@ -277,6 +278,7 @@ label {
 .page-title p {
   font-size: 16px;
 }
+.successStories {border-radius: 10px;}
 .page-title .title-bg {
   color: rgba(30, 37, 48, 0.07);
   font-size: 158px;
@@ -288,6 +290,8 @@ label {
   top: 50%;
   z-index: -1;
   transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
 }
 
 .section-title {
